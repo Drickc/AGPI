@@ -21,7 +21,7 @@ html {
 }
 
     #sidebar {
-        /* min-width: 270px; */
+        min-width: 270px;
         max-width: 270px;
         background: #3e64ff;
         color: #fff;
@@ -163,4 +163,10 @@ html {
         #sidebarCollapse span {
           display: none; } }
 
-          
+  
+    #sidebar.active ul li:last-child {
+        margin: 0px;
+    }
+    #sidebar ul li:last-child {
+        margin-left: 18px;
+    }
